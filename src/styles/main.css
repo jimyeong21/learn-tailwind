@@ -667,10 +667,6 @@ abbr[title] {
   border-radius: 0.125rem;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .bg-cyan-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(207 250 254 / var(--tw-bg-opacity));
@@ -738,11 +734,29 @@ abbr[title] {
   color: #bbaf83;
 }
 
-.border-pesto-300 {
-  border-color: #bbaf83;
+/* base 스타일 재구성 */
+
+body {
+  background: #0f172a;
 }
 
-/* base 스타일 재구성 */
+@media (min-width: 640px) {
+  body {
+    background: #334155;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: #64748b;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background: #e2e8f0;
+  }
+}
 
 /* 스타일 재사용 */
 
