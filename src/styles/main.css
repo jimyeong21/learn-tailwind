@@ -645,6 +645,10 @@ abbr[title] {
   gap: 1.25rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -694,6 +698,10 @@ abbr[title] {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.font-pretendard {
+  font-family: "Pretendard Variable";
 }
 
 .text-3xl {

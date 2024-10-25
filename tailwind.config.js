@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        suit: ['"SUIT Variable"'],
+        pretendard: ['"Pretendard Variable"'],
+      },
+    },
   },
   plugins: [],
 };
